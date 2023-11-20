@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px;}
+
+.container-full{height:auto;}
+.container{max-width:1100px; height:auto; padding:0 15px; margin:auto;}
+
+.col-4{width:23%; margin:1%; float:left;}
+.cl{clear:both;}
+.img-full{width:100%; height:auto;}
+
+.toogle{ height:37px; float:right; padding:22px;display:none;}
+.menu{width:auto; height:105px;margin-top:1%; text-align:center; font-size: 16px;}
+.menu a{color: #000000; text-decoration:none; margin:0 25px; line-height:105px;}
+.menu a:hover{color: #684B4C;}
+
+.menu-mini{ width:100%; height:auto; background-color: #999;margin:0 auto; display:none;}
+.menu-mini a{ height:40px; display:block; text-decoration:none; text-align:center; color:#FFF; line-height:40px; }
+.menu-mini a:hover{background-color:#666;}
+
+h1{margin:0; padding:0; padding:150px 0; color:#FFF; font-size:42px; line-height:42px;}
+h3{margin:0; padding:0; padding: 15px 0; font-size:18px; line-height:20px; color:#666;}
+h2{margin:0; padding:0; padding: 15px 150px; font-size:18px; line-height:20px;}
+
+.footer{background-color:#999; text-align:center; padding:30px 0 30px 0;}
+
+
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/to-top2.png) no-repeat 0px 0px;
+}
+
+
+
+
+
+@media(max-width:840px){
+	.menu{display:none;}
+	.toogle{display:block;}
+}
+
+@media (max-width:500px){
+	.col-4{width:98%;}
+}
